@@ -11,7 +11,15 @@
         <meta name="language" content="English">
         <meta name="generator" content="N/A">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!-- Favicon & Theme-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+        <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#14a1eb">
+        <meta name="msapplication-TileColor" content="#14a1eb">
+        <meta name="theme-color" content="#14a1eb">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -20,6 +28,16 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JK7FCTBLMK"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JK7FCTBLMK');
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -56,6 +74,8 @@
                     </div>
                     <p class="lead mb-1">I am a distinguished technical leader, entrepreneur, and scientist, boasting over ten years of rich experience in the realms of artificial intelligence, software development, and management.</p>
                     <p class="mb-5"><a href="#about">About me</a></p>
+                    <p class="lead mb-1">CTO at Amadeus AI, a deep-tech startup at the forefront of AI innovation in Brazil.</p>
+                    <p class="mb-5"><a href="https://amadeus-ai.com">Learn more</a></p>
                     <p class="lead mb-1">Building upon this foundation of innovation and leadership, I have recently expanded my role to become a <b>strategic advisor in Generative AI</b>, where I leverage my extensive expertise to guide cutting-edge initiatives and shape the future of technology.</p>
                     <p class="mb-5"><a href="#consulting">Consulting services</a></p>
                     <div class="social-icons">
@@ -86,6 +106,14 @@
             <section class="resume-section" id="curriculum">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience & Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cofounder & CTO</h3>
+                            <div class="subheading mb-3">AMADEUS AI</div>
+                            <p>We are dedicated to advancing AI adoption by providing secure, business-focused models tailored to the unique needs of LATAM companies. Led by an accomplished founding team, Amadeus AI is a deep-tech startup at the forefront of AI innovation in Brazil, offering proprietary business language models and a comprehensive suite of AI tools. Accelerated by AWS, NVIDIA, and Google. Oracle Partner.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2024 - Present</span></div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Cofounder & Chief Scientist</h3>
@@ -137,9 +165,9 @@
                     <h2 class="mb-5">Latest Research</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h4 class="mb-3">Bilingual ASR model with language identification for Brazilian Portuguese and South-American Spanish</h4>
-                            <div class="subheading mb-1">XLI Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2023)</div>
-                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://biblioteca.sbrt.org.br/articles/4446">Paper</a></p>
+                            <h4 class="mb-3">Amadeus-Verbo Technical Report: The powerful Qwen2.5 family models trained in Portuguese</h4>
+                            <div class="subheading mb-1">Amadeus Verbo Qwen2.5 Family trained in PT-BR (<a href="https://huggingface.co/collections/amadeusai/amadeus-verbo-qwen25-pt-br-powered-by-aws-67cf2e7aae69ce2b3bcdcfda">Hugging Face</a>)</div>
+                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://arxiv.org/abs/2506.00019">Paper</a></p>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -151,9 +179,46 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h4 class="mb-3">Bilingual ASR model with language identification for Brazilian Portuguese and South-American Spanish</h4>
+                            <div class="subheading mb-1">XLI Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT 2023)</div>
+                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://biblioteca.sbrt.org.br/articles/4446">Paper</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h4 class="mb-3">Clustering Methods and Tools to Handle High-Dimensional Social Media Text Data</h4>
                             <div class="subheading mb-1">Advanced Applications of NLP and Deep Learning in Social Media Data 2023</div>
                             <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://www.igi-global.com/book/advanced-applications-nlp-deep-learning/304800">Book Chapter</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-3">Evaluation Metrics for Text Data Augmentation in NLP</h4>
+                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://arxiv.org/abs/2402.06766">Paper</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-3">Phonetically rich corpus construction for a low-resourced language</h4>
+                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://arxiv.org/abs/2402.05794">Paper</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-3">Image captioning for Brazilian Portuguese using GRIT model</h4>
+                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://arxiv.org/abs/2402.05106">Paper</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-3">An Inpainting-Infused Pipeline for Attire and Background Replacement</h4>
+                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://arxiv.org/abs/2402.03501">Paper</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-3">From Pampas to Pixels: Fine-Tuning Diffusion Models for Gaúcho Heritage</h4>
+                            <p><span class="me-2"><i class="fas fa-file text-warning"></i></span><a href="https://arxiv.org/abs/2401.05520">Paper</a></p>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -170,78 +235,150 @@
             <section class="resume-section" id="talks">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Talks & Workshops</h2>
-                    <h3 class="mb-5">Recent & notable</h3>
+                    <h3 class="mb-5">Recent & Noteworthy</h3>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
-                                ChatGPT and the Future of Artificial Intelligence in Brazil (Invited Speaker)
+                                Seminário sobre Grandes Modelos de Linguagem para português brasileiro, UnB (Invited Speaker)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">South Summit 2023</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">NVIDIA, Ministério da Ciência, Tecnologia e Inovação, LNCC 2025</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                Impactos da IA na Construção de Startups (Invited Speaker)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">Astella (VC) 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                LLMs: Desafios e Boas Práticas (Invited Speaker)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">Campinas Innovation Week 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                Masterclass in LLMs (<a href="https://aws.amazon.com/startups/programs/startup-inception">Mentor</a>)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">AWS Startup Inception Program 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                O que é preciso para termos IAs Proprietárias (<a href="https://www.youtube.com/watch?v=izjTvq0uK1M">Podcast</a>)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">AI First Cast 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                Aperfeiçoamento de LLMs para Casos de Uso Específicos (<a href="https://www.youtube.com/watch?v=NenWyt_ET9s">Podcast</a>)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">VEM AÍ - NVIDIA 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                AI Applications in Non-English Languages: LATAM Use Cases (Selected Speaker)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">SXSW 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                The Future of Innovation powered by Generative AI (Invited Speaker)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">South Summit 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
                                 <a href="https://www.latinxinai.org">LatinX in AI</a> Mentorship (Invited Mentor)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">NeurIPs 2023</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">NeurIPs 2023</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
+                                <i class="fas fa-comment text-warning"></i>
+                                ChatGPT and the Future of Artificial Intelligence in Brazil (Invited Speaker)
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">South Summit 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
                                 Generative AI Track (Founder & Coordinator)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">TDC Business 2023</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">TDC Business 2023</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
                                 Large Language Models (LLMs) associated risks (Invited Speaker)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">International Bioethics, Neuroethics & AI Ethics Colloquium 2023</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">International Bioethics, Neuroethics & AI Ethics Colloquium 2023</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
                                 AI Driven Innovation Certificate (Invited Professor)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">ACE Cortex 2023</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">ACE Cortex 2023</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
                                 Introduction to AI: zero to hero (Workshop)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Instituto Caldeira 2022</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">Instituto Caldeira 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
                                 Practical introduction to AI for Startups (Workshop)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Oracle Startup Cloud Accelerator 2018</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">Oracle Startup Cloud Accelerator 2018</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <p class="lead">
+                            <p class="lead mb-0">
                                 <i class="fas fa-comment text-warning"></i>
                                 Oracle CloudWorld New York (Invited Speaker)
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Oracle CloudWorld 2017</span></div>
+                        <div class="flex-shrink-0 mb-3"><span class="text-primary">Oracle CloudWorld 2017</span></div>
                     </div>
                     <p><a href="#about">About me</a> | <a href="#research">Research</a></p>
                 </div>
@@ -251,8 +388,18 @@
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-3">Startup Awards & Programs</h2>
-                    <p class="mb-5 lead">Over the course of a decade serving as Cofounder and Chief Scientist at Alana AI, an innovative AI startup dedicated to addressing intricate Customer Experience (CX) challenges through proprietary technology, I have had the privilege of garnering a notable array of accolades.</p>
+                    <p class="mb-5 lead">Over the course of a decade serving as the technical leader of deep-tech startups, I have had the privilege of garnering a notable list of accolades.</p>
                     <ul class="fa-ul mb-5">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            <a href="https://deepmind.google/models/gemma/gemmaverse/gaia/" target="_blank">GAIA</a>, a Brazilian Portuguese Gemma 3 model developed with ABRIA, CEIA (UFG), Nama, and Amadeus AI - Google DeepMind 2025
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Cohort - Generative AI Accelerator (Global, only 10 Brazilian Startups) - AWS 2024
+                        </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             1
